@@ -1,0 +1,6 @@
+<%= simple_form_for @record do |f| %>
+  <%= f.input :title %>
+  <%= f.input :amount %>
+  <%= f.input :date %>
+  <%= f.submit 'Create Record', class: 'btn btn-success'  %>
+<% end %>
